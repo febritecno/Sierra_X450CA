@@ -1,0 +1,108 @@
+36:688  32:727  Found BIOS RSDP at F0000
+36:688  0:000  Printing ACPI tables from RSDP F0000 ...
+36:688  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+36:688  0:000    (Xsdt: DA89A078, Rsdt: DA89A028)
+36:688  0:000    DA89A078: 'XSDT', 'Notebook', Rev: 1, Len: 116
+36:688  0:000    DA89A028: 'RSDT', 'Notebook', Rev: 1, Len: 76
+36:688  0:000    Tables in Xsdt: 10
+36:688  0:000    0. DA8AB390: 'FACP', 'Notebook', Rev: 5, Len: 268
+36:688  0:000        (Dsdt: DA89A188, Facs: DA8C1080, XDsdt: DA89A188, XFacs: 0)
+36:688  0:000        DA89A188: 'DSDT', 'Notebook', Rev: 2, Len: 70149
+36:691  0:002        DA8C1080: 'FACS', Ver: 2, Len: 64
+36:691  0:000    1. DA8AB4A0: 'APIC', 'Notebook', Rev: 3, Len: 114
+36:691  0:000    2. DA8AB518: 'FPDT', 'Notebook', Rev: 1, Len: 68
+36:691  0:000    3. DA8AB560: 'ECDT', 'Notebook', Rev: 1, Len: 193
+36:691  0:000    4. DA8AB628: 'MCFG', 'Notebook', Rev: 1, Len: 60
+36:691  0:000    5. DA8AB668: 'HPET', 'Notebook', Rev: 1, Len: 56
+36:691  0:000    6. DA8AB6A0: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+36:691  0:000    7. DA8ABCD8: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+36:691  0:000    8. DA8AC178: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314
+36:691  0:000    9. DA8ACA88: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+36:691  0:000    Tables in Rsdt: 10
+36:691  0:000    0. DA89A100: 'FACP', 'Notebook', Rev: 2, Len: 132
+36:691  0:000        (Dsdt: DA89A188, Facs: DA8C1040)
+36:691  0:000        DA89A188: 'DSDT', 'Notebook', Rev: 2, Len: 70149
+36:693  0:002        DA8C1040: 'FACS', Ver: 0, Len: 64
+36:693  0:000    1. DA8AB4A0: 'APIC', 'Notebook', Rev: 3, Len: 114
+36:693  0:000    2. DA8AB518: 'FPDT', 'Notebook', Rev: 1, Len: 68
+36:693  0:000    3. DA8AB560: 'ECDT', 'Notebook', Rev: 1, Len: 193
+36:693  0:000    4. DA8AB628: 'MCFG', 'Notebook', Rev: 1, Len: 60
+36:693  0:000    5. DA8AB668: 'HPET', 'Notebook', Rev: 1, Len: 56
+36:693  0:000    6. DA8AB6A0: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+36:693  0:000    7. DA8ABCD8: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+36:693  0:000    8. DA8AC178: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314
+36:693  0:000    9. DA8ACA88: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+36:693  0:000  Found UEFI Acpi 2.0 RSDP at DA89A000
+36:693  0:000  Saving ACPI tables from RSDP DA89A000 to EFI\CLOVER\ACPI\origin ...
+36:693  0:000   DA89A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+37:043  0:350    (Xsdt: DA89A078, Rsdt: DA89A028)
+37:043  0:000    DA89A078: 'XSDT', 'Notebook', Rev: 1, Len: 116 -> XSDT.aml
+37:046  0:002    DA89A028: 'RSDT', 'Notebook', Rev: 1, Len: 76 -> RSDT.aml
+37:049  0:002    Tables in Xsdt: 10
+37:049  0:000    0. DA8AB390: 'FACP', 'Notebook', Rev: 5, Len: 268 -> FACP.aml
+37:052  0:002        (Dsdt: DA89A188, Facs: DA8C1080, XDsdt: DA89A188, XFacs: 0)
+37:052  0:000        DA89A188: 'DSDT', 'Notebook', Rev: 2, Len: 70149 -> DSDT.aml
+37:068  0:016        DA8C1080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+37:071  0:002    1. DA8AB4A0: 'APIC', 'Notebook', Rev: 3, Len: 114 -> APIC.aml
+37:074  0:002    2. DA8AB518: 'FPDT', 'Notebook', Rev: 1, Len: 68 -> FPDT.aml
+37:076  0:002    3. DA8AB560: 'ECDT', 'Notebook', Rev: 1, Len: 193 -> ECDT.aml
+37:079  0:002    4. DA8AB628: 'MCFG', 'Notebook', Rev: 1, Len: 60 -> MCFG.aml
+37:082  0:002    5. DA8AB668: 'HPET', 'Notebook', Rev: 1, Len: 56 -> HPET.aml
+37:085  0:002    6. DA8AB6A0: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586 -> SSDT-0.aml
+37:088  0:002    7. DA8ABCD8: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182 -> SSDT-1.aml
+37:091  0:002    8. DA8AC178: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314 -> SSDT-2.aml
+37:094  0:002    9. DA8ACA88: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+ Found hidden SSDT 4 pcs
+37:094  0:000        * D8679018: 'SSDT', 'CpuPm', Rev: 1, Len: 2840  53 53 44 54 18 0B 00 00 01 8D 50 6D 52 65 66 00 Internal length = 2840 -> SSDT-4x.aml
+37:096  0:002        * DA5F2A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 76 50 6D 52 65 66 00 Internal length = 771 -> SSDT-5x.aml
+37:099  0:002        * DA5F1018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2131  53 53 44 54 53 08 00 00 01 9D 50 6D 52 65 66 00 Internal length = 2131 -> SSDT-6x.aml
+37:102  0:002        * DA5F3C18: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-7x.aml
+37:105  0:002   -> SSDT-3.aml
+37:108  0:002    Tables in Rsdt: 10
+37:108  0:000    0. DA89A100: 'FACP', 'Notebook', Rev: 2, Len: 132 -> RSDT-FACP.aml
+37:111  0:002        (Dsdt: DA89A188, Facs: DA8C1040)
+37:111  0:000        DA89A188: 'DSDT', 'Notebook', Rev: 2, Len: 70149
+37:113  0:002        DA8C1040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+37:155  0:042    1. DA8AB4A0: 'APIC', 'Notebook', Rev: 3, Len: 114
+37:155  0:000    2. DA8AB518: 'FPDT', 'Notebook', Rev: 1, Len: 68
+37:155  0:000    3. DA8AB560: 'ECDT', 'Notebook', Rev: 1, Len: 193
+37:155  0:000    4. DA8AB628: 'MCFG', 'Notebook', Rev: 1, Len: 60
+37:155  0:000    5. DA8AB668: 'HPET', 'Notebook', Rev: 1, Len: 56
+37:155  0:000    6. DA8AB6A0: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+37:155  0:000    7. DA8ABCD8: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+37:155  0:000    8. DA8AC178: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314
+37:155  0:000    9. DA8ACA88: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+37:155  0:000  Found UEFI Acpi 1.0 RSDP at DA89A000
+37:155  0:000  Printing ACPI tables from RSDP DA89A000 ...
+37:155  0:000   DA89A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+37:155  0:000    (Xsdt: DA89A078, Rsdt: DA89A028)
+37:155  0:000    DA89A078: 'XSDT', 'Notebook', Rev: 1, Len: 116
+37:155  0:000    DA89A028: 'RSDT', 'Notebook', Rev: 1, Len: 76
+37:155  0:000    Tables in Xsdt: 10
+37:155  0:000    0. DA8AB390: 'FACP', 'Notebook', Rev: 5, Len: 268
+37:155  0:000        (Dsdt: DA89A188, Facs: DA8C1080, XDsdt: DA89A188, XFacs: 0)
+37:155  0:000        DA89A188: 'DSDT', 'Notebook', Rev: 2, Len: 70149
+37:157  0:002        DA8C1080: 'FACS', Ver: 2, Len: 64
+37:157  0:000    1. DA8AB4A0: 'APIC', 'Notebook', Rev: 3, Len: 114
+37:157  0:000    2. DA8AB518: 'FPDT', 'Notebook', Rev: 1, Len: 68
+37:157  0:000    3. DA8AB560: 'ECDT', 'Notebook', Rev: 1, Len: 193
+37:157  0:000    4. DA8AB628: 'MCFG', 'Notebook', Rev: 1, Len: 60
+37:157  0:000    5. DA8AB668: 'HPET', 'Notebook', Rev: 1, Len: 56
+37:157  0:000    6. DA8AB6A0: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+37:157  0:000    7. DA8ABCD8: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+37:157  0:000    8. DA8AC178: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314
+37:157  0:000    9. DA8ACA88: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
+37:157  0:000    Tables in Rsdt: 10
+37:157  0:000    0. DA89A100: 'FACP', 'Notebook', Rev: 2, Len: 132
+37:157  0:000        (Dsdt: DA89A188, Facs: DA8C1040)
+37:157  0:000        DA89A188: 'DSDT', 'Notebook', Rev: 2, Len: 70149
+37:159  0:002        DA8C1040: 'FACS', Ver: 0, Len: 64
+37:159  0:000    1. DA8AB4A0: 'APIC', 'Notebook', Rev: 3, Len: 114
+37:159  0:000    2. DA8AB518: 'FPDT', 'Notebook', Rev: 1, Len: 68
+37:159  0:000    3. DA8AB560: 'ECDT', 'Notebook', Rev: 1, Len: 193
+37:159  0:000    4. DA8AB628: 'MCFG', 'Notebook', Rev: 1, Len: 60
+37:159  0:000    5. DA8AB668: 'HPET', 'Notebook', Rev: 1, Len: 56
+37:159  0:000    6. DA8AB6A0: 'SSDT', 'AhciTab1', Rev: 1, Len: 1586
+37:159  0:000    7. DA8ABCD8: 'SSDT', 'AhciTab2', Rev: 1, Len: 1182
+37:159  0:000    8. DA8AC178: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2314
+37:159  0:000    9. DA8ACA88: 'SSDT', 'CpuPm', Rev: 1, Len: 2840
