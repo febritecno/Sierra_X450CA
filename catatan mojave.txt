@@ -4,3 +4,13 @@ apple alc->sound
 whatevergreen -> GPU
 
 fix wifi->patch kext ke system
+
+
+gunakan combo update untuk update bisa loncat ke versi final
+
+
+untuk update combo. kext dan clover gunakan ini
+SIERRA EFI DEFAULT MURNI.zip
+
+
+hackintool

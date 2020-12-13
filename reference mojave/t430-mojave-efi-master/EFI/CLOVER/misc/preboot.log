@@ -1,0 +1,870 @@
+0:100  0:100  MemLog inited, TSC freq: 2594109376
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 21.4.2018,  18:26:57 (GMT)
+0:100  0:000  Starting Clover revision: 4428 on Lenovo EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D NO_GRUB_DRIVERS_EMBEDDED -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 5 | OS: 10.12.6 | XCODE: 9.2]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,549A8B7D-9037-483F-8D0D-4691359F837E,0x28,0x64000) @D418EC18
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:102  0:002  === [ Get Smbios ] ========================================
+0:108  0:006  Type 16 Index = 0
+0:108  0:000  Total Memory Slots Count = 2
+0:108  0:000  Type 17 Index = 0
+0:108  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:108  0:000  SmbiosTable.Type17->Size = 8192MB
+0:108  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:108  0:000  SmbiosTable.Type17->Vendor = 859B
+0:108  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:108  0:000  SmbiosTable.Type17->PartNumber = CT102464BF160B.M16
+0:108  0:000  Type 17 Index = 1
+0:108  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:108  0:000  SmbiosTable.Type17->Size = 8192MB
+0:108  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:108  0:000  SmbiosTable.Type17->Vendor = 859B
+0:108  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:108  0:000  SmbiosTable.Type17->PartNumber = CT102464BF160B.M16
+0:108  0:000  Boot status=0
+0:108  0:000  Running on: '2355HFU' with board '2355HFU'
+0:108  0:000  === [ GetCPUProperties ] ==================================
+0:108  0:000  CPU Vendor = 756E6547 Model=306A9
+0:108  0:000   The CPU supported SSE4.1
+0:108  0:000  BrandString = Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz
+0:108  0:000   The CPU supported turbo
+0:108  0:000  MSR 0x35               20004
+0:108  0:000  MSR 0xE2 before patch 1E008404
+0:108  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:108  0:000  MSR 0xCE              00080C10_E0011A00
+0:108  0:000  corrected FLEX_RATIO = 0
+0:108  0:000  MSR 0x1B0             00000000
+0:108  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:108  0:000  MaxDiv/MinDiv: 26.0/12
+0:108  0:000  Turbo: 31/31/31/33
+0:108  0:000  Features: 0xBFEBFBFF
+0:108  0:000  Threads: 4
+0:108  0:000  Cores: 2
+0:108  0:000  FSB: 100 MHz
+0:108  0:000  CPU: 2600 MHz
+0:108  0:000  TSC: 2600 MHz
+0:108  0:000  PIS: 100 MHz
+0:108  0:000  ExternalClock: 25 MHz
+0:108  0:000  === [ GetDevices ] ========================================
+0:108  0:000  PCI (00|00:1D.00) : 8086 1E26 class=0C0320
+0:108  0:000  PCI (00|00:1A.00) : 8086 1E2D class=0C0320
+0:108  0:000  PCI (00|00:14.00) : 8086 1E31 class=0C0330
+0:108  0:000  PCI (00|00:1C.00) : 8086 1E10 class=060400
+0:108  0:000  PCI (00|00:02.00) : 8086 0166 class=030000
+0:108  0:000   - GFX: Model=Intel HD Graphics 4000 (Intel)
+0:108  0:000  PCI (00|00:1F.00) : 8086 1E55 class=060100
+0:108  0:000  PCI (00|00:1C.01) : 8086 1E12 class=060400
+0:108  0:000  PCI (00|00:1C.02) : 8086 1E14 class=060400
+0:108  0:000  PCI (00|00:1F.02) : 8086 1E03 class=010601
+0:108  0:000  PCI (00|00:00.00) : 8086 0154 class=060000
+0:108  0:000  PCI (00|00:16.00) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|00:16.02) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|00:16.03) : FFFF FFFF class=FFFFFF
+0:108  0:000  PCI (00|00:19.00) : 8086 1502 class=020000
+0:108  0:000   - LAN: 0 Vendor=Intel
+0:108  0:000  PCI (00|00:1B.00) : 8086 1E20 class=040300
+0:108  0:000  PCI (00|03:00.00) : 14E4 43B1 class=028000
+0:109  0:000   - WIFI: Vendor=Broadcom
+0:109  0:000  PCI (00|04:00.00) : 1180 E823 class=088000
+0:109  0:000  PCI (00|00:1F.03) : 8086 1E22 class=0C0500
+0:109  0:000  PCI (00|00:1F.06) : 8086 1E24 class=118000
+0:109  0:000  === [ GetDefaultSettings ] ================================
+0:109  0:000  Clover load options size = 0 bytes
+0:111  0:002  EFI\CLOVER\config.plist loaded: Success
+0:123  0:012  === [ GetListOfThemes ] ===================================
+0:124  0:000  - [00]: mac
+0:125  0:001  === [ Found config plists ] ===============================
+0:125  0:000  - config-meh.plist
+0:125  0:000  - config-new.plist
+0:125  0:000  - config.plist
+0:125  0:000  - config_HD4000_1600x900.plist
+0:126  0:000  === [ GetEarlyUserSettings ] ==============================
+0:126  0:000  timeout set to 10
+0:126  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:126  0:000  KextsToPatch: 7 requested
+0:126  0:000   - [00]: IOAHCIBlockStorage (TRIM Support Enable) :: BinPatch :: data len: 11
+0:126  0:000   - patch disabled at config
+0:126  0:000   - [01]: AppleBacklight (AppleBacklight Injector) :: BinPatch :: data len: 9
+0:126  0:000   - [02]: AppleIntelFramebufferCapri (DP Video Enable 1/2) :: BinPatch :: data len: 12
+0:126  0:000   - [03]: AppleIntelFramebufferCapri (DP Video Enable 2/2) :: BinPatch :: data len: 48
+0:126  0:000   - [04]: AppleIntelFramebufferCapri (DP Audio Enable (0304)) :: BinPatch :: data len: 12
+0:126  0:000   - [05]: AppleIntelFramebufferCapri (DP Audio Enable (0406)) :: BinPatch :: data len: 12
+0:126  0:000   - [06]: AppleIntelFramebufferCapri (DP Audio Enable (0205)) :: BinPatch :: data len: 12
+0:126  0:000  Default theme: mac
+0:126  0:000  === [ LoadDrivers ] =======================================
+0:126  0:000  Loading AppleImageCodec-64.efi  status=Success
+0:126  0:000  Loading AppleUITheme-64.efi  status=Success
+0:127  0:000  Loading DataHubDxe-64.efi  status=Success
+0:132  0:005  Loading AppleKeyAggregator-64.efi  status=Success
+0:132  0:000  Loading OsxAptioFix2Drv-64.efi  status=Success
+0:132  0:000  Loading FSInject-64.efi  status=Success
+0:133  0:000  Loading FirmwareVolume-64.efi  status=Success
+0:133  0:000  Loading SMCHelper-64.efi  status=Success
+0:133  0:000  Loading apfs.efi  status=Success
+0:135  0:001   - driver needs connecting
+0:135  0:000  Loading HFSPlus-64.efi  status=Success
+0:136  0:000   - driver needs connecting
+0:136  0:000  Loading NTFS-64.efi  status=Success
+0:136  0:000   - driver needs connecting
+0:136  0:000  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:136  0:000  3 drivers needs connecting ...
+0:136  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:136  0:000  HFS+ driver loaded
+0:136  0:000  APFS driver loaded
+0:137  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+5:964  5:827  === [ InitScreen ] ========================================
+5:964  0:000  SetMaxResolution: found best mode 0: 1600x900
+5:964  0:000   - already set
+5:964  0:000  Console modes reported: 6, available modes:
+5:964  0:000   - [01]: 80x25
+5:964  0:000   - [03]: 200x47 (current mode)
+5:964  0:000   - [04]: 80x25
+5:964  0:000   - [05]: 100x31
+5:964  0:000   - [06]: 128x40
+5:964  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,549A8B7D-9037-483F-8D0D-4691359F837E,0x28,0x64000)
+5:965  0:000  Using embedded font: Success
+5:966  0:000  === [ GetMacAddress ] =====================================
+5:966  0:000  MAC address of LAN #0= 3C:97:0E:62:CA:63:
+5:966  0:000  MAC address of LAN #1= 3C:97:0E:62:CA:63:
+5:966  0:000  MAC address of LAN #2= 3C:97:0E:62:CA:63:
+5:966  0:000  === [ ScanSPD ] ===========================================
+5:966  0:000  SMBus device : 8086 1E22 class=0C0500 status=Success
+5:966  0:000  SMBus CmdReg: 0x3
+5:966  0:000  Scanning SMBus [8086:1E22], mmio: 0xF2734004, ioport: 0xEFA0, hostc: 0x1
+5:966  0:000  Slots to scan [8]...
+5:967  0:000  SPD[0]: Type 11 @0x50
+5:986  0:019  Not using XMP because it is not present
+5:986  0:000  DDR speed 1600MHz
+5:986  0:000  Slot: 0 Type 24 8192MB 1600MHz Vendor=Crucial Technology PartNo=CT102464BF160B.M16FE SerialNo=0000000000000000
+5:986  0:000  SPD[1]: Type 11 @0x51
+6:005  0:019  Not using XMP because it is not present
+6:005  0:000  DDR speed 1600MHz
+6:005  0:000  Slot: 1 Type 24 8192MB 1600MHz Vendor=Crucial Technology PartNo=CT102464BF160B.M16FE SerialNo=0000000000000000
+6:006  0:000  SPD[4]: Type 82 @0x54
+6:007  0:000  SPD[5]: Type 82 @0x55
+6:007  0:000  SPD[6]: Type 78 @0x56
+6:007  0:000  === [ GetAcpiTablesList ] =================================
+6:020  0:012  Get Acpi Tables List from RSDT:
+6:020  0:000   - [00]: FACP  TP-G7    len=244
+6:020  0:000   - [01]: SLIC  TP-G7    len=374
+6:020  0:000   - [02]: TCPA  LENOVO len=50
+6:020  0:000   - [03]: SSDT  TP-SSDT2 len=1032
+6:020  0:000   - [04]: SSDT  TP-SSDT1 len=51
+6:020  0:000   - [05]: SSDT  SataAhci len=1943
+6:020  0:000   - [06]: ASF!  TP-G7    len=165
+6:020  0:000   - [07]: HPET  TP-G7    len=56
+6:020  0:000   - [08]: APIC  TP-G7    len=152
+6:020  0:000   - [09]: MCFG  TP-G7    len=60
+6:020  0:000   - [10]: ECDT  TP-G7    len=82
+6:020  0:000   - [11]: FPDT  TP-G7    len=100
+6:020  0:000   - [12]: UEFI  TP-G7    len=62
+6:020  0:000   - [13]: UEFI  COMBUF len=66
+6:020  0:000   - [14]: POAT  TP-G7    len=85
+6:020  0:000   - [15]: SSDT  Cpu0Ist len=3059
+6:020  0:000   - [16]: SSDT  CpuPm len=2691
+6:020  0:000   - [17]: UEFI  TP-G7    len=678
+6:020  0:000   - [18]: DBG2  TP-G7    len=233
+6:020  0:000   - [19]: BGRT  TP-G7    len=56
+6:020  0:000  Calibrated TSC Frequency = 2594109376 = 2594MHz
+6:020  0:000  === [ GetUserSettings ] ===================================
+6:020  0:000  USB FixOwnership: yes
+6:020  0:000   - final DSDT Fix mask=10000000
+6:020  0:000  Using ProductName from config: MacBookPro9,2
+6:020  0:000  Using latest BiosVersion from clover
+6:020  0:000  BiosVersion: MBP91.88Z.00D9.B00.1802021100
+6:020  0:000  BiosReleaseDate: 02/02/2018
+6:020  0:000  Using FirmwareFeatures from config: 0xC00DE137
+6:020  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+6:020  0:000  Board-ID set from config as Mac-6F01561E16C75D06
+6:020  0:000  BoardType: 0xA
+6:021  0:000  ChassisType: 0xA
+6:021  0:000  Converted CustomUUID 5851E48B-0D7B-43BE-B3ED-1F64980DB3F9
+6:448  0:427  === [ ScanVolumes ] =======================================
+6:448  0:000  Found 7 volumes with blockIO
+6:448  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+6:448  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,549A8B7D-9037-483F-8D0D-4691359F837E,0x28,0x64000)
+6:449  0:000          Result of bootcode detection: bootable unknown (legacy)
+6:449  0:000          This is SelfVolume !!
+6:449  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)
+6:449  0:000          Result of bootcode detection: bootable unknown (legacy)
+6:449  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,06098D82D414754AB6D625F4A4E89A2A)
+6:449  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8A7DCCA3F61C3C4AB3CA8C8BBA4FA5F1)
+6:449  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,EF5A0F6AC5D9F94888752EE608A13AEC)
+6:449  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,97040965ED5E024E9DCC8BCFC4AE7224)
+6:449  0:000  === [ InitTheme ] =========================================
+6:455  0:006  Using theme 'mac' (EFI\CLOVER\themes\mac)
+6:455  0:000  Warning! Character width 9 should be even!
+6:458  0:002  Loading font from ThemeDir: Success
+6:458  0:000  Choosing theme mac
+6:459  0:000  after NVRAM boot-args=-v dart=0 kext-dev-mode=1
+6:459  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+6:459  0:000  found AppleSMC protocol
+6:488  0:029  Registered 18 SMC keys
+6:488  0:000  === [ ScanLoader ] ========================================
+6:488  0:000  - [01]: 'EFI'
+6:488  0:000  - [03]: 'Preboot'
+6:492  0:003          AddLoaderEntry for Volume Name=Preboot
+6:496  0:003      Check if volume Is Hibernated:
+6:496  0:000      Check sleep image 'by signature':
+6:496  0:000      using default sleep image name = \private\var\vm\sleepimage
+6:497  0:000      sleepimage not found -> Not Found
+6:497  0:000      hibernated: no - sign
+6:502  0:005          AddLoaderEntry for Volume Name=Preboot
+6:506  0:004  - [04]: 'Macintosh SSD'
+6:519  0:012          AddLoaderEntry for Volume Name=Macintosh SSD
+6:524  0:005      Check if volume Is Hibernated:
+6:524  0:000      Check sleep image 'by signature':
+6:532  0:008      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+6:532  0:000      using default sleep image name = \private\var\vm\sleepimage
+6:538  0:005      sleepimage not found -> Not Found
+6:538  0:000      hibernated: no - sign
+6:541  0:003  - [05]: 'Recovery'
+6:545  0:003          AddLoaderEntry for Volume Name=Recovery
+6:550  0:005  - [06]: 'VM'
+6:550  0:000  === [ AddCustomTool ] =====================================
+6:550  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+6:550  0:000  Checking EFI partition Volume 1 for Clover
+6:550  0:000   Found Clover
+6:552  0:001  === [ GetEfiBootDeviceFromNvram ] =========================
+6:552  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8A7DCCA3F61C3C4AB3CA8C8BBA4FA5F1)
+6:552  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8A7DCCA3F61C3C4AB3CA8C8BBA4FA5F1)'
+6:552  0:000    - LoaderPath: '<null string>'
+6:552  0:000    - Guid = 4D28B4C2-1169-4042-864E-D536C93169CA
+6:552  0:000  === [ FindStartupDiskVolume ] =============================
+6:552  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8A7DCCA3F61C3C4AB3CA8C8BBA4FA5F1)
+6:552  0:000     - searching for that partition
+6:552  0:000      - found entry 2. 'Boot macOS from Macintosh SSD', Volume 'Macintosh SSD'
+6:552  0:000  Boot redirected to Entry 2. 'Boot macOS from Macintosh SSD'
+6:552  0:000  DefaultIndex=2 and MainMenu.EntryCount=10
+6:603  0:050  GUI ready
+10:108  3:504  Found UEFI Acpi 2.0 RSDP at DAFFE014
+10:108  0:000  Saving ACPI tables from RSDP DAFFE014 to EFI\CLOVER\ACPI\origin ...
+10:108  0:000   DAFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+10:114  0:006    (Xsdt: DAFFE170, Rsdt: DAFFE0D4)
+10:114  0:000    DAFFE170: 'XSDT', 'TP-G7', Rev: 1, Len: 196 -> XSDT.aml
+10:116  0:002    DAFFE0D4: 'RSDT', 'TP-G7', Rev: 1, Len: 116 -> RSDT.aml
+10:120  0:003    Tables in Xsdt: 20
+10:120  0:000    0. DAFE5000: 'FACP', 'TP-G7', Rev: 5, Len: 268 -> FACP.aml
+10:123  0:002        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: DAFE7000, XFacs: 0)
+10:123  0:000        DAFE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791 -> DSDT.aml
+10:132  0:008        DAF5A000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+10:135  0:003    1. DAFFD000: 'SLIC', 'TP-G7', Rev: 1, Len: 374 -> SLIC.aml
+10:138  0:003    2. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50 -> TCPA.aml
+10:141  0:003    3. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032 -> SSDT-0-TP-SSDT2.aml
+10:146  0:004    4. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51 -> SSDT-1-TP-SSDT1.aml
+10:149  0:003    5. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943 -> SSDT-2-SataAhci.aml
+10:152  0:003    6. DAFE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165 -> ASF!.aml
+10:155  0:003    7. DAFE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56 -> HPET.aml
+10:159  0:003    8. DAFE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152 -> APIC.aml
+10:162  0:003    9. DAFE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60 -> MCFG.aml
+10:165  0:003    10. DAFE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82 -> ECDT.aml
+10:168  0:003    11. DAFDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100 -> FPDT.aml
+10:171  0:003    12. DAFDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62 -> UEFI.aml
+10:175  0:003    13. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66 -> UEFI.aml
+10:180  0:004    14. DAFDC000: 'POAT', 'TP-G7', Rev: 3, Len: 85 -> POAT.aml
+10:183  0:003    15. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059 -> SSDT-3-Cpu0Ist.aml
+10:187  0:003    16. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691 -> SSDT-4-CpuPm.aml (Found hidden SSDT 4 pcs)
+10:190  0:003        * D3712018: '', '˜ qÓ', Rev: 64, Len: 0  01 00 00 00 00 00 00 00 40 18 71 D3 00 00 00 00 
+10:190  0:000        * DAE3EA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 83 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x4_0-ApIst.aml
+10:193  0:003        * DAE3D018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2561  53 53 44 54 01 0A 00 00 01 ED 50 6D 52 65 66 00 Internal length = 2561 -> SSDT-x4_1-Cpu0Cst.aml
+10:196  0:003        * DAE3CD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F9 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_2-ApCst.aml
+10:200  0:003  
+10:200  0:000    17. DAFD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678 -> UEFI.aml
+10:205  0:005    18. DAFD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233 -> DBG2.aml
+10:209  0:003    19. DAFD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56 -> BGRT.aml
+10:212  0:003    Tables in Rsdt: 20
+10:212  0:000    0. DAFE4000: 'FACP', 'TP-G7', Rev: 4, Len: 244 -> RSDT-FACP.aml
+10:215  0:003        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: 0, XFacs: 0)
+10:215  0:000        DAFE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791
+10:217  0:001        DAF5A000: 'FACS', Ver: 1, Len: 64
+10:217  0:000    1. DAFFD000: 'SLIC', 'TP-G7', Rev: 1, Len: 374
+10:217  0:000    2. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+10:217  0:000    3. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+10:217  0:000    4. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+10:217  0:000    5. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+10:217  0:000    6. DAFE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165
+10:217  0:000    7. DAFE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56
+10:217  0:000    8. DAFE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152
+10:217  0:000    9. DAFE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60
+10:217  0:000    10. DAFE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82
+10:217  0:000    11. DAFDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100
+10:217  0:000    12. DAFDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62
+10:217  0:000    13. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+10:217  0:000    14. DAFDC000: 'POAT', 'TP-G7', Rev: 3, Len: 85
+10:217  0:000    15. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059
+10:217  0:000    16. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+10:217  0:000    17. DAFD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678
+10:217  0:000    18. DAFD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233
+10:217  0:000    19. DAFD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56
+10:217  0:000  Found UEFI Acpi 1.0 RSDP at DAFFE000
+10:217  0:000  Printing ACPI tables from RSDP DAFFE000 ...
+10:217  0:000   DAFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+10:217  0:000    (Rsdt: DAFFE038)
+10:217  0:000    DAFFE038: 'RSDT', 'TP-G7', Rev: 1, Len: 112
+10:217  0:000    Tables in Rsdt: 19
+10:217  0:000    0. DAFE4000: 'FACP', 'TP-G7', Rev: 4, Len: 244
+10:217  0:000        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: 0, XFacs: 0)
+10:217  0:000        DAFE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791
+10:218  0:001        DAF5A000: 'FACS', Ver: 1, Len: 64
+10:218  0:000    1. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+10:218  0:000    2. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+10:218  0:000    3. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+10:218  0:000    4. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+10:218  0:000    5. DAFE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165
+10:218  0:000    6. DAFE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56
+10:218  0:000    7. DAFE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152
+10:218  0:000    8. DAFE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60
+10:218  0:000    9. DAFE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82
+10:218  0:000    10. DAFDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100
+10:218  0:000    11. DAFDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62
+10:218  0:000    12. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+10:218  0:000    13. DAFDC000: 'POAT', 'TP-G7', Rev: 3, Len: 85
+10:218  0:000    14. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059
+10:218  0:000    15. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+10:218  0:000    16. DAFD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678
+10:218  0:000    17. DAFD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233
+10:218  0:000    18. DAFD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56
+13:423  3:205  === [ FixBiosDsdt ] =======================================
+13:423  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+13:423  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+13:423  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+13:423  0:000  VideoCard devID=0x1668086
+13:423  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+13:424  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+13:424  0:000  Found Airport BCM at 0x1C0001, 0x0
+13:424  0:000  first CPU found at 2C offset 2F
+13:424  0:000  score candidate at 28
+13:424  0:000  score inserted in acpi_cpu_score _PR_
+13:424  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+13:430  0:006  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+14:580  1:149  === [ FixBiosDsdt ] =======================================
+14:580  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+14:580  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+14:580  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+14:580  0:000  VideoCard devID=0x1668086
+14:580  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+14:580  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+14:580  0:000  Found Airport BCM at 0x1C0001, 0x0
+14:580  0:000  first CPU found at 2C offset 2F
+14:580  0:000  score candidate at 28
+14:580  0:000  score inserted in acpi_cpu_score _PR_
+14:580  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+14:588  0:007  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+15:065  0:477  === [ FixBiosDsdt ] =======================================
+15:065  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+15:065  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+15:065  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+15:065  0:000  VideoCard devID=0x1668086
+15:065  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+15:065  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+15:065  0:000  Found Airport BCM at 0x1C0001, 0x0
+15:065  0:000  first CPU found at 2C offset 2F
+15:065  0:000  score candidate at 28
+15:065  0:000  score inserted in acpi_cpu_score _PR_
+15:065  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+15:073  0:007  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+16:557  1:483  === [ FixBiosDsdt ] =======================================
+16:557  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+16:557  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+16:557  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+16:557  0:000  VideoCard devID=0x1668086
+16:557  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+16:557  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+16:557  0:000  Found Airport BCM at 0x1C0001, 0x0
+16:557  0:000  first CPU found at 2C offset 2F
+16:557  0:000  score candidate at 28
+16:557  0:000  score inserted in acpi_cpu_score _PR_
+16:557  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+16:565  0:008  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+19:722  3:156  === [ FixBiosDsdt ] =======================================
+19:722  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+19:722  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+19:722  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+19:722  0:000  VideoCard devID=0x1668086
+19:722  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+19:722  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+19:722  0:000  Found Airport BCM at 0x1C0001, 0x0
+19:722  0:000  first CPU found at 2C offset 2F
+19:722  0:000  score candidate at 28
+19:722  0:000  score inserted in acpi_cpu_score _PR_
+19:722  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+19:732  0:009  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+20:164  0:432  Found UEFI Acpi 2.0 RSDP at DAFFE014
+20:164  0:000  Saving ACPI tables from RSDP DAFFE014 to EFI\CLOVER\ACPI\origin ...
+20:164  0:000   DAFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+20:171  0:006    (Xsdt: DAFFE170, Rsdt: DAFFE0D4)
+20:171  0:000    DAFFE170: 'XSDT', 'TP-G7', Rev: 1, Len: 196 -> XSDT.aml
+20:175  0:004    DAFFE0D4: 'RSDT', 'TP-G7', Rev: 1, Len: 116 -> RSDT.aml
+20:180  0:004    Tables in Xsdt: 20
+20:180  0:000    0. DAFE5000: 'FACP', 'TP-G7', Rev: 5, Len: 268 -> FACP.aml
+20:185  0:004        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: DAFE7000, XFacs: 0)
+20:185  0:000        DAFE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791 -> DSDT.aml
+20:195  0:009        DAF5A000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+20:199  0:004    1. DAFFD000: 'SLIC', 'TP-G7', Rev: 1, Len: 374 -> SLIC.aml
+20:204  0:004    2. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50 -> TCPA.aml
+20:209  0:004    3. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032 -> SSDT-0-TP-SSDT2.aml
+20:215  0:005    4. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51 -> SSDT-1-TP-SSDT1.aml
+20:220  0:004    5. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943 -> SSDT-2-SataAhci.aml
+20:225  0:005    6. DAFE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165 -> ASF!.aml
+20:230  0:004    7. DAFE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56 -> HPET.aml
+20:235  0:005    8. DAFE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152 -> APIC.aml
+20:240  0:004    9. DAFE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60 -> MCFG.aml
+20:245  0:004    10. DAFE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82 -> ECDT.aml
+20:250  0:004    11. DAFDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100 -> FPDT.aml
+20:255  0:004    12. DAFDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62 -> UEFI.aml
+20:259  0:004    13. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66 -> UEFI.aml
+20:265  0:005    14. DAFDC000: 'POAT', 'TP-G7', Rev: 3, Len: 85 -> POAT.aml
+20:270  0:005    15. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059 -> SSDT-3-Cpu0Ist.aml
+20:275  0:005    16. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691 -> SSDT-4-CpuPm.aml (Found hidden SSDT 4 pcs)
+20:280  0:005        * D3712018: '', '˜ qÓ', Rev: 64, Len: 0  01 00 00 00 00 00 00 00 40 18 71 D3 00 00 00 00 
+20:280  0:000        * DAE3EA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 83 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x4_0-ApIst.aml
+20:285  0:004        * DAE3D018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2561  53 53 44 54 01 0A 00 00 01 ED 50 6D 52 65 66 00 Internal length = 2561 -> SSDT-x4_1-Cpu0Cst.aml
+20:290  0:005        * DAE3CD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F9 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_2-ApCst.aml
+20:295  0:004  
+20:295  0:000    17. DAFD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678 -> UEFI.aml
+20:300  0:005    18. DAFD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233 -> DBG2.aml
+20:306  0:005    19. DAFD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56 -> BGRT.aml
+20:311  0:005    Tables in Rsdt: 20
+20:311  0:000    0. DAFE4000: 'FACP', 'TP-G7', Rev: 4, Len: 244 -> RSDT-FACP.aml
+20:316  0:004        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: 0, XFacs: 0)
+20:316  0:000        DAFE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791 -> RSDT-DSDT.aml
+20:322  0:006        DAF5A000: 'FACS', Ver: 1, Len: 64 -> RSDT-FACS.aml
+20:326  0:003    1. DAFFD000: 'SLIC', 'TP-G7', Rev: 1, Len: 374 -> RSDT-SLIC.aml
+20:329  0:003    2. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50 -> RSDT-TCPA.aml
+20:333  0:003    3. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032 -> RSDT-SSDT-5-TP-SSDT2.aml
+20:337  0:003    4. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51 -> RSDT-SSDT-6-TP-SSDT1.aml
+20:341  0:004    5. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943 -> RSDT-SSDT-7-SataAhci.aml
+20:343  0:002    6. DAFE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165 -> RSDT-ASF!.aml
+20:346  0:002    7. DAFE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56 -> RSDT-HPET.aml
+20:349  0:002    8. DAFE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152 -> RSDT-APIC.aml
+20:351  0:002    9. DAFE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60 -> RSDT-MCFG.aml
+20:354  0:002    10. DAFE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82 -> RSDT-ECDT.aml
+20:356  0:002    11. DAFDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100 -> RSDT-FPDT.aml
+20:360  0:003    12. DAFDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62 -> RSDT-UEFI.aml
+20:362  0:002    13. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66 -> RSDT-UEFI.aml
+20:366  0:004    14. DAFDC000: 'POAT', 'TP-G7', Rev: 3, Len: 85 -> RSDT-POAT.aml
+20:369  0:002    15. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059 -> RSDT-SSDT-8-Cpu0Ist.aml
+20:372  0:002    16. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691 -> RSDT-SSDT-9-CpuPm.aml (Found hidden SSDT 4 pcs)
+20:375  0:002        * D3712018: '', '˜ qÓ', Rev: 64, Len: 0  01 00 00 00 00 00 00 00 40 18 71 D3 00 00 00 00 
+20:375  0:000        * DAE3EA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 83 50 6D 52 65 66 00 Internal length = 771 -> RSDT-SSDT-x9_0-ApIst.aml
+20:377  0:002        * DAE3D018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2561  53 53 44 54 01 0A 00 00 01 ED 50 6D 52 65 66 00 Internal length = 2561 -> RSDT-SSDT-x9_1-Cpu0Cst.aml
+20:380  0:003        * DAE3CD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F9 50 6D 52 65 66 00 Internal length = 281 -> RSDT-SSDT-x9_2-ApCst.aml
+20:383  0:002  
+20:383  0:000    17. DAFD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678 -> RSDT-UEFI.aml
+20:387  0:004    18. DAFD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233 -> RSDT-DBG2.aml
+20:390  0:002    19. DAFD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56 -> RSDT-BGRT.aml
+20:393  0:002  Found UEFI Acpi 1.0 RSDP at DAFFE000
+20:393  0:000  Printing ACPI tables from RSDP DAFFE000 ...
+20:393  0:000   DAFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+20:393  0:000    (Rsdt: DAFFE038)
+20:393  0:000    DAFFE038: 'RSDT', 'TP-G7', Rev: 1, Len: 112
+20:393  0:000    Tables in Rsdt: 19
+20:393  0:000    0. DAFE4000: 'FACP', 'TP-G7', Rev: 4, Len: 244
+20:393  0:000        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: 0, XFacs: 0)
+20:393  0:000        DAFE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791
+20:394  0:001        DAF5A000: 'FACS', Ver: 1, Len: 64
+20:394  0:000    1. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+20:394  0:000    2. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+20:394  0:000    3. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+20:394  0:000    4. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+20:394  0:000    5. DAFE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165
+20:394  0:000    6. DAFE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56
+20:394  0:000    7. DAFE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152
+20:394  0:000    8. DAFE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60
+20:394  0:000    9. DAFE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82
+20:394  0:000    10. DAFDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100
+20:394  0:000    11. DAFDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62
+20:394  0:000    12. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+20:394  0:000    13. DAFDC000: 'POAT', 'TP-G7', Rev: 3, Len: 85
+20:394  0:000    14. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059
+20:394  0:000    15. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+20:394  0:000    16. DAFD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678
+20:394  0:000    17. DAFD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233
+20:394  0:000    18. DAFD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56
+20:724  0:329  ReinitSelfLib after theme change
+20:724  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,549A8B7D-9037-483F-8D0D-4691359F837E,0x28,0x64000)
+20:724  0:000  === [ ScanVolumes ] =======================================
+20:724  0:000  Found 7 volumes with blockIO
+20:724  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+20:726  0:001  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,549A8B7D-9037-483F-8D0D-4691359F837E,0x28,0x64000)
+20:726  0:000          Result of bootcode detection: bootable unknown (legacy)
+20:726  0:000          This is SelfVolume !!
+20:726  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)
+20:727  0:000          Result of bootcode detection: bootable unknown (legacy)
+20:727  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,06098D82D414754AB6D625F4A4E89A2A)
+20:727  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8A7DCCA3F61C3C4AB3CA8C8BBA4FA5F1)
+20:727  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,EF5A0F6AC5D9F94888752EE608A13AEC)
+20:727  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,97040965ED5E024E9DCC8BCFC4AE7224)
+20:727  0:000  Choosing theme mac
+20:727  0:000  after NVRAM boot-args=-v dart=0 kext-dev-mode=1
+20:727  0:000  === [ ScanLoader ] ========================================
+20:727  0:000  - [01]: 'EFI'
+20:727  0:000  - [03]: 'Preboot'
+20:731  0:003          AddLoaderEntry for Volume Name=Preboot
+20:734  0:002      Check if volume Is Hibernated:
+20:734  0:000      Check sleep image 'by signature':
+20:734  0:000      using default sleep image name = \private\var\vm\sleepimage
+20:734  0:000      sleepimage not found -> Not Found
+20:734  0:000      hibernated: no - sign
+20:736  0:001          AddLoaderEntry for Volume Name=Preboot
+20:740  0:004  - [04]: 'Macintosh SSD'
+20:747  0:007          AddLoaderEntry for Volume Name=Macintosh SSD
+20:751  0:004      Check if volume Is Hibernated:
+20:751  0:000      Check sleep image 'by signature':
+20:756  0:004      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+20:756  0:000      using default sleep image name = \private\var\vm\sleepimage
+20:757  0:001      sleepimage not found -> Not Found
+20:757  0:000      hibernated: no - sign
+20:761  0:003  - [05]: 'Recovery'
+20:764  0:003          AddLoaderEntry for Volume Name=Recovery
+20:769  0:004  - [06]: 'VM'
+20:769  0:000  === [ AddCustomTool ] =====================================
+20:769  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+20:769  0:000  Checking EFI partition Volume 1 for Clover
+20:769  0:000   Found Clover
+20:769  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+20:769  0:000  === [ FindStartupDiskVolume ] =============================
+20:769  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,4D28B4C2-1169-4042-864E-D536C93169CA,0x64028,0x1DC8F267)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8A7DCCA3F61C3C4AB3CA8C8BBA4FA5F1)
+20:769  0:000     - searching for that partition
+20:769  0:000      - found entry 2. 'Boot macOS from Macintosh SSD', Volume 'Macintosh SSD'
+20:769  0:000  Boot redirected to Entry 2. 'Boot macOS from Macintosh SSD'
+20:769  0:000  DefaultIndex=2 and MainMenu.EntryCount=10
+55:003  34:234  === [ FixBiosDsdt ] =======================================
+55:003  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+55:003  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+55:003  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+55:003  0:000  VideoCard devID=0x1668086
+55:003  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+55:004  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+55:004  0:000  Found Airport BCM at 0x1C0001, 0x0
+55:004  0:000  first CPU found at 2C offset 2F
+55:004  0:000  score candidate at 28
+55:004  0:000  score inserted in acpi_cpu_score _PR_
+55:004  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+55:015  0:011  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+55:385  0:369  === [ FixBiosDsdt ] =======================================
+55:385  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+55:385  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+55:385  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+55:385  0:000  VideoCard devID=0x1668086
+55:385  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+55:385  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+55:385  0:000  Found Airport BCM at 0x1C0001, 0x0
+55:385  0:000  first CPU found at 2C offset 2F
+55:385  0:000  score candidate at 28
+55:385  0:000  score inserted in acpi_cpu_score _PR_
+55:385  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+55:395  0:009  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+55:678  0:283  === [ FixBiosDsdt ] =======================================
+55:678  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+55:678  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+55:679  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+55:679  0:000  VideoCard devID=0x1668086
+55:679  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+55:679  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+55:679  0:000  Found Airport BCM at 0x1C0001, 0x0
+55:679  0:000  first CPU found at 2C offset 2F
+55:679  0:000  score candidate at 28
+55:679  0:000  score inserted in acpi_cpu_score _PR_
+55:679  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+55:688  0:009  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+55:940  0:251  === [ FixBiosDsdt ] =======================================
+55:940  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+55:940  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+55:940  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+55:940  0:000  VideoCard devID=0x1668086
+55:940  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+55:940  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+55:940  0:000  Found Airport BCM at 0x1C0001, 0x0
+55:940  0:000  first CPU found at 2C offset 2F
+55:940  0:000  score candidate at 28
+55:940  0:000  score inserted in acpi_cpu_score _PR_
+55:940  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+55:950  0:009  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+56:202  0:251  === [ FixBiosDsdt ] =======================================
+56:202  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+56:202  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+56:202  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+56:202  0:000  VideoCard devID=0x1668086
+56:202  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+56:202  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+56:202  0:000  Found Airport BCM at 0x1C0001, 0x0
+56:202  0:000  first CPU found at 2C offset 2F
+56:202  0:000  score candidate at 28
+56:202  0:000  score inserted in acpi_cpu_score _PR_
+56:202  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+56:211  0:009  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+56:407  0:196  === [ FixBiosDsdt ] =======================================
+56:407  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+56:407  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+56:407  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+56:407  0:000  VideoCard devID=0x1668086
+56:407  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+56:408  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+56:408  0:000  Found Airport BCM at 0x1C0001, 0x0
+56:408  0:000  first CPU found at 2C offset 2F
+56:408  0:000  score candidate at 28
+56:408  0:000  score inserted in acpi_cpu_score _PR_
+56:408  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+56:417  0:009  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+56:781  0:363  === [ FixBiosDsdt ] =======================================
+56:781  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+56:781  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+56:781  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+56:781  0:000  VideoCard devID=0x1668086
+56:781  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+56:781  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+56:781  0:000  Found Airport BCM at 0x1C0001, 0x0
+56:781  0:000  first CPU found at 2C offset 2F
+56:781  0:000  score candidate at 28
+56:781  0:000  score inserted in acpi_cpu_score _PR_
+56:781  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+56:791  0:009  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+57:106  0:315  === [ FixBiosDsdt ] =======================================
+57:106  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+57:106  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+57:106  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+57:107  0:000  VideoCard devID=0x1668086
+57:107  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+57:107  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+57:107  0:000  Found Airport BCM at 0x1C0001, 0x0
+57:107  0:000  first CPU found at 2C offset 2F
+57:107  0:000  score candidate at 28
+57:107  0:000  score inserted in acpi_cpu_score _PR_
+57:107  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+57:116  0:009  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+57:392  0:276  === [ FixBiosDsdt ] =======================================
+57:392  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+57:392  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+57:392  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+57:392  0:000  VideoCard devID=0x1668086
+57:392  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+57:392  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+57:392  0:000  Found Airport BCM at 0x1C0001, 0x0
+57:392  0:000  first CPU found at 2C offset 2F
+57:392  0:000  score candidate at 28
+57:392  0:000  score inserted in acpi_cpu_score _PR_
+57:392  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+57:402  0:009  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+57:670  0:268  === [ FixBiosDsdt ] =======================================
+57:670  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+57:670  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+57:670  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+57:670  0:000  VideoCard devID=0x1668086
+57:670  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+57:670  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+57:670  0:000  Found Airport BCM at 0x1C0001, 0x0
+57:670  0:000  first CPU found at 2C offset 2F
+57:670  0:000  score candidate at 28
+57:670  0:000  score inserted in acpi_cpu_score _PR_
+57:670  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+57:679  0:009  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-10000000.aml
+58:551  0:872  Found UEFI Acpi 2.0 RSDP at DAFFE014
+58:551  0:000  Saving ACPI tables from RSDP DAFFE014 to EFI\CLOVER\ACPI\origin ...
+58:551  0:000   DAFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+58:558  0:006    (Xsdt: DAFFE170, Rsdt: DAFFE0D4)
+58:558  0:000    DAFFE170: 'XSDT', 'TP-G7', Rev: 1, Len: 196 -> XSDT.aml
+58:562  0:004    DAFFE0D4: 'RSDT', 'TP-G7', Rev: 1, Len: 116 -> RSDT.aml
+58:567  0:004    Tables in Xsdt: 20
+58:567  0:000    0. DAFE5000: 'FACP', 'TP-G7', Rev: 5, Len: 268 -> FACP.aml
+58:572  0:004        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: DAFE7000, XFacs: 0)
+58:572  0:000        DAFE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791 -> DSDT.aml
+58:582  0:010        DAF5A000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+58:587  0:005    1. DAFFD000: 'SLIC', 'TP-G7', Rev: 1, Len: 374 -> SLIC.aml
+58:592  0:005    2. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50 -> TCPA.aml
+58:598  0:005    3. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032 -> SSDT-0-TP-SSDT2.aml
+58:603  0:005    4. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+58:603  0:000    5. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+58:603  0:000    6. DAFE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165
+58:603  0:000    7. DAFE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56
+58:603  0:000    8. DAFE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152
+58:603  0:000    9. DAFE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60
+58:603  0:000    10. DAFE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82
+58:603  0:000    11. DAFDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100
+58:603  0:000    12. DAFDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62
+58:603  0:000    13. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+58:603  0:000    14. DAFDC000: 'POAT', 'TP-G7', Rev: 3, Len: 85
+58:603  0:000    15. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059
+58:603  0:000    16. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+58:603  0:000    17. DAFD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678
+58:603  0:000    18. DAFD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233
+58:603  0:000    19. DAFD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56
+58:603  0:000    Tables in Rsdt: 20
+58:603  0:000    0. DAFE4000: 'FACP', 'TP-G7', Rev: 4, Len: 244 -> RSDT-FACP.aml
+58:608  0:005        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: 0, XFacs: 0)
+58:608  0:000        DAFE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791
+58:610  0:001        DAF5A000: 'FACS', Ver: 1, Len: 64
+58:610  0:000    1. DAFFD000: 'SLIC', 'TP-G7', Rev: 1, Len: 374
+58:610  0:000    2. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+58:610  0:000    3. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+58:610  0:000    4. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+58:610  0:000    5. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+58:610  0:000    6. DAFE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165
+58:610  0:000    7. DAFE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56
+58:610  0:000    8. DAFE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152
+58:610  0:000    9. DAFE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60
+58:610  0:000    10. DAFE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82
+58:610  0:000    11. DAFDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100
+58:610  0:000    12. DAFDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62
+58:610  0:000    13. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+58:610  0:000    14. DAFDC000: 'POAT', 'TP-G7', Rev: 3, Len: 85
+58:610  0:000    15. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059
+58:610  0:000    16. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+58:610  0:000    17. DAFD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678
+58:610  0:000    18. DAFD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233
+58:610  0:000    19. DAFD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56
+58:610  0:000  Found UEFI Acpi 1.0 RSDP at DAFFE000
+58:610  0:000  Printing ACPI tables from RSDP DAFFE000 ...
+58:610  0:000   DAFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+58:610  0:000    (Rsdt: DAFFE038)
+58:610  0:000    DAFFE038: 'RSDT', 'TP-G7', Rev: 1, Len: 112
+58:610  0:000    Tables in Rsdt: 19
+58:610  0:000    0. DAFE4000: 'FACP', 'TP-G7', Rev: 4, Len: 244
+58:610  0:000        (Dsdt: DAFE7000, Facs: DAF5A000, XDsdt: 0, XFacs: 0)
+58:610  0:000        DAFE7000: 'DSDT', 'TP-G7', Rev: 1, Len: 69791
+58:611  0:001        DAF5A000: 'FACS', Ver: 1, Len: 64
+58:611  0:000    1. DAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+58:611  0:000    2. DAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+58:611  0:000    3. DAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+58:611  0:000    4. DAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+58:611  0:000    5. DAFE6000: 'ASF!', 'TP-G7', Rev: 32, Len: 165
+58:611  0:000    6. DAFE3000: 'HPET', 'TP-G7', Rev: 1, Len: 56
+58:611  0:000    7. DAFE2000: 'APIC', 'TP-G7', Rev: 1, Len: 152
+58:611  0:000    8. DAFE1000: 'MCFG', 'TP-G7', Rev: 1, Len: 60
+58:611  0:000    9. DAFE0000: 'ECDT', 'TP-G7', Rev: 1, Len: 82
+58:611  0:000    10. DAFDF000: 'FPDT', 'TP-G7', Rev: 1, Len: 100
+58:611  0:000    11. DAFDE000: 'UEFI', 'TP-G7', Rev: 1, Len: 62
+58:611  0:000    12. DAFDD000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+58:611  0:000    13. DAFDC000: 'POAT', 'TP-G7', Rev: 3, Len: 85
+58:611  0:000    14. DAFDB000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3059
+58:611  0:000    15. DAFDA000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+58:611  0:000    16. DAFD9000: 'UEFI', 'TP-G7', Rev: 1, Len: 678
+58:611  0:000    17. DAFD8000: 'DBG2', 'TP-G7', Rev: 0, Len: 233
+58:611  0:000    18. DAFD7000: 'BGRT', 'TP-G7', Rev: 0, Len: 56
+62:670  4:058  BootVariable of the entry is empty
+62:670  0:000  === [ StartLoader ] =======================================
+62:670  0:000  Finally: ExternalClock=24MHz BusSpeed=99773kHz CPUFreq=2594MHz PIS: hw.busfrequency=96000000Hz
+62:670  0:000  Loading boot.efi  status=Success
+62:698  0:028  GetOSVersion: 10.13.4 (17E199)
+62:698  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM
+62:698  0:000  Filtering KextPatches:
+62:698  0:000   - [00]: IOAHCIBlockStorage (TRIM Support Enable) :: BinPatch :: [OS: 10.13.4 | MatchOS: All | MatchBuild: All] ==> disabled by user
+62:698  0:000   - [01]: AppleBacklight (AppleBacklight Injector) :: BinPatch :: [OS: 10.13.4 | MatchOS: All | MatchBuild: All] ==> allowed
+62:698  0:000   - [02]: AppleIntelFramebufferCapri (DP Video Enable 1/2) :: BinPatch :: [OS: 10.13.4 | MatchOS: All | MatchBuild: All] ==> allowed
+62:698  0:000   - [03]: AppleIntelFramebufferCapri (DP Video Enable 2/2) :: BinPatch :: [OS: 10.13.4 | MatchOS: All | MatchBuild: All] ==> allowed
+62:698  0:000   - [04]: AppleIntelFramebufferCapri (DP Audio Enable (0304)) :: BinPatch :: [OS: 10.13.4 | MatchOS: All | MatchBuild: All] ==> allowed
+62:698  0:000   - [05]: AppleIntelFramebufferCapri (DP Audio Enable (0406)) :: BinPatch :: [OS: 10.13.4 | MatchOS: All | MatchBuild: All] ==> allowed
+62:698  0:000   - [06]: AppleIntelFramebufferCapri (DP Audio Enable (0205)) :: BinPatch :: [OS: 10.13.4 | MatchOS: All | MatchBuild: All] ==> allowed
+62:698  0:000  Will not patch boot.efi
+62:698  0:000  === [ PatchSmbios ] =======================================
+62:698  0:000  insert table 9 for dev 19:0
+62:698  0:000  insert table 9 for dev 0:0
+62:699  0:000  Trusting SMBIOS...
+62:699  0:000  Channels: 1
+62:699  0:000  Interleave: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+62:699  0:000   partNum=CT102464BF160B.M16
+62:699  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+62:699  0:000  BANK 0 DIMM0 1600MHz 8192MB
+62:699  0:000   partNum=CT102464BF160B.M16
+62:699  0:000  SMBIOS Type 17 Index = 1 => 1 1:
+62:699  0:000  BANK 0 DIMM1 1600MHz 8192MB
+62:699  0:000  mTotalSystemMemory = 16384
+62:699  0:000  NumberOfMemoryDevices = 2
+62:699  0:000  Table 131 is present, CPUType=1
+62:699  0:000  Change to: 604
+62:699  0:000  === [ PatchACPI ] =========================================
+62:699  0:000  Xsdt reallocation done
+62:699  0:000  old FADT length=10C
+62:699  0:000   SignatureFixup: 0x0 -> 0x0
+62:699  0:000  Found OperationRegion(MNVS, SystemMemory, DAF9D018, ...)
+62:699  0:000  Found OperationRegion(GNVS, SystemMemory, DAF6CE18, ...)
+62:699  0:000  Found OperationRegion(TMMB, SystemMemory, FED40000, ...)
+62:700  0:000  Apply DsdtFixMask=0x10000000
+62:700  0:000     drop _DSM mask=0x0000
+62:700  0:000  === [ FixBiosDsdt ] =======================================
+62:700  0:000  USBADR[0] = 0x1D0000 and PCIe = 0xFFFE
+62:700  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+62:700  0:000  USBADR[2] = 0x140000 and PCIe = 0xFFFE
+62:700  0:000  VideoCard devID=0x1668086
+62:700  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+62:700  0:000  Audio HDA (addr:0x1B0000) setting specified layout-id=29 (0x1D)
+62:700  0:000  Found Airport BCM at 0x1C0001, 0x0
+62:700  0:000  first CPU found at 2C offset 2F
+62:700  0:000  score candidate at 28
+62:700  0:000  score inserted in acpi_cpu_score _PR_
+62:700  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+62:701  0:000  PreCleanup XSDT: count=20, length=196
+62:701  0:000  PreCleanup XSDT, corrected XSDT: count=20, length=196
+62:701  0:000  === [ ACPIDropTables ] ====================================
+62:701  0:000  === [ DropSSDT ] ==========================================
+62:701  0:000  Drop tables from XSDT, SIGN=SSDT TableID= Length=0
+62:701  0:000   Table[3]: SSDT  TP-SSDT2  1032 dropped
+62:701  0:000   Table[4]: SSDT  TP-SSDT1  51 dropped
+62:701  0:000   Table[5]: SSDT  SataAhci  1943 dropped
+62:701  0:000   Table[15]: SSDT  Cpu0Ist  3059 dropped
+62:701  0:000   Table[16]: SSDT  CpuPm  2691 dropped
+62:701  0:000  CPUBase=0 and ApicCPUBase=1 ApicCPUNum=8
+62:701  0:000  Cleanup XSDT: count=20, length=196
+62:701  0:000  corrected XSDT count=15, length=156
+62:701  0:000  === [ RestSetup macOS ] ===================================
+62:701  0:000  EdidDiscovered size=128
+62:701  0:000  --- Discovered EDID Table size:128
+62:701  0:000  000  |  00  FF  FF  FF  FF  FF  FF  00  30  AE
+62:701  0:000  010  |  A1  40  00  00  00  00  00  14  01  03
+62:701  0:000  020  |  80  1F  11  78  EA  1D  85  91  56  59
+62:701  0:000  030  |  8F  26  18  50  54  00  00  00  01  01
+62:701  0:000  040  |  01  01  01  01  01  01  01  01  01  01
+62:701  0:000  050  |  01  01  01  01  FA  27  40  E0  60  84
+62:701  0:000  060  |  1E  30  30  20  25  00  36  AE  10  00
+62:701  0:000  070  |  00  19  C2  27  40  48  62  84  20  30
+62:701  0:000  080  |  30  20  25  00  36  AE  10  00  00  19
+62:701  0:000  090  |  00  00  00  0F  00  A9  09  32  A9  09
+62:701  0:000  100  |  32  19  09  00  4C  A3  4B  54  00  00
+62:701  0:000  110  |  00  FE  00  4C  54  4E  31  34  30  4B
+62:701  0:000  120  |  54  30  33  34  30  31  00  FD
+62:701  0:000  Intel HD Graphics 4000 [8086:0166] :: PciRoot(0x0)\Pci(0x2,0x0)
+62:701  0:000    Found HD Plus Display - 16:9 :: Width=1600 Height=900
+62:701  0:000    DualLink: set to 1
+62:701  0:000    AAPL00,DualLink = 1
+62:701  0:000    FakeID Intel GFX: not set
+62:701  0:000    ig-platform-id = 0x01660004
+62:701  0:000    Beginning Intel GFX auto-detection with ACPI injection
+62:701  0:000    Found FakeID Intel GFX = 0x01668086
+62:701  0:000  Intel GFX revision  = 0x9
+62:701  0:000   setting specified layout-id=29 (0x1D)
+62:701  0:000  stringlength = 3280
+62:701  0:000  CurrentMode: Width=1600 Height=900
+62:701  0:000  Beginning FSInjection
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: D2718618
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: D2718618
+62:705  0:003  Use origin smbios table type 1 guid.
+62:707  0:002  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+62:707  0:000  Extra kext: EFI\CLOVER\kexts\Other\BrcmPatchRAM2.kext (v.2.2.7)
+62:768  0:061  Extra kext: EFI\CLOVER\kexts\Other\IntelMausiEthernet.kext (v.2.3.0)
+62:775  0:006  Extra kext: EFI\CLOVER\kexts\Other\USBInjectAll.kext (v.0.6.4)
+63:223  0:447  Extra kext: EFI\CLOVER\kexts\Other\CodecCommander.kext (v.2.6.3)
+63:246  0:023  Extra kext: EFI\CLOVER\kexts\Other\BrcmFirmwareData.kext (v.2.2.7)
+63:257  0:011  Extra kext: EFI\CLOVER\kexts\Other\IntelGraphicsFixup.kext (v.1.2.7)
+63:268  0:010  Extra kext: EFI\CLOVER\kexts\Other\ACPIBatteryManager.kext (v.1.81.4)
+63:278  0:010  Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext (v.1.8.29)
+63:292  0:013    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext (v.1.8.29)
+63:322  0:030    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext (v.1.8.29)
+63:335  0:012    |-- PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext (v.1.8.29)
+63:384  0:049  Extra kext: EFI\CLOVER\kexts\Other\VoodooHDA.kext (v.2.8.7)
+63:400  0:015  Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.2.3)
+63:409  0:008  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext (v.1787)
+63:430  0:021  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_CPUSensors.kext (v.1787)
+63:439  0:008  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC_ACPISensors.kext (v.1787)
+63:465  0:026  SetStartupDiskVolume:
+63:465  0:000    * Volume: 'Macintosh SSD'
+63:465  0:000    * LoaderPath: '<null string>'
+63:465  0:000    * DevPath: Macintosh SSD
+63:465  0:000    * GUID = 4D28B4C2-1169-4042-864E-D536C93169CA
+63:465  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>4D28B4C2-1169-4042-864E-D536C93169CA</string></dict></dict></dict></array>
+63:465  0:000  Custom boot screen not used because entry has unset use graphics
+63:466  0:000  Closing log
