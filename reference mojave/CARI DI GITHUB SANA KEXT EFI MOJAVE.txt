@@ -1,0 +1,20 @@
+gunakan brigness slider.app + cli brigness
+
+apple alc->sound
+whatevergreen -> GPU [sudah patch DSDT]
+
+[penting]kalau sudah patch DSDT tidak usah patch via kext.
+
+HINDARI DUPLIKAT KONFIGURASI DAN KEXT.
+
+fix wifi->patch kext ke system
+
+
+[penting]gunakan combo update untuk update bisa loncat ke versi final
+
+
+untuk update combo. kext dan clover gunakan ini
+SIERRA EFI DEFAULT MURNI.zip
+
+
+hackintool
