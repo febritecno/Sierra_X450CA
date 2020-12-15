@@ -1,3 +1,8 @@
+
+
+
+
+
 gunakan brigness slider.app + cli brigness
 
 apple alc->sound
