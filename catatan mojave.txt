@@ -1,4 +1,4 @@
-
+MOJAVE PAKAI APFS bukan HFS+ jadi perluh DRIVER LOADER APFS!!
 
 
 
